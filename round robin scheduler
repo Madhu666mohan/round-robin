@@ -41,7 +41,7 @@ int main()
         	burst[i]=burst[i];
 		}
 	}
-	printf("**************First Iteration(Time slice:6)**********************\n");
+	printf("\n**************First Iteration(Time slice:6)**********************\n");
 	for(i=0;i<m;i++)
 	{  
 	if(arrival[i]<=tq1+arrival[i-1])
